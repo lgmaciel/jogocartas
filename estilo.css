@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+}
+
+mesa {
+    display: block;    
+    background-color: darkgreen;
+    color: blanchedalmond;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+} 
+
+placar {
+    display: block;
+    background-color: black;
+    color:aquamarine;
+    font-size: x-large;
+    text-align: center;
+}
+
+cartas {
+    display: block;
+
+}
+
+carta {
+    display: inline-block;
+    background-color: chocolate;
+    color: black;
+
+    margin-bottom: 5px;
+    
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    min-height: 250px;
+}
+
+carta img {
+    display: block;
+    padding: 5px;
+    
+    border-style: groove;
+    border-width: 2px;
+    border-color: brown;
+}
+
+carta texto {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    min-height: 80px;    
+}
+
+info {
+    display: block;
+    background-color: black;
+    color:aquamarine;
+    text-align: center;
+    font-size: x-large;
+}
